@@ -9,7 +9,7 @@ import static data.RestApiHelper.fillPaymentFormWithCreditCardData;
 import static data.RestApiHelper.fillPaymentFormWithDebitCardData;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class ApiTest {
+public class ApiTest {
 
     @Test
     void shouldGiveResponseForValidApprovedDebitCard() {

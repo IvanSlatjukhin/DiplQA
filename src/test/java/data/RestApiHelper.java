@@ -8,6 +8,8 @@ import io.restassured.specification.RequestSpecification;
 import static io.restassured.RestAssured.given;
 
 public class RestApiHelper {
+
+    static String url = System.getProperty("sut.url");
     public static RequestSpecification requestSpec = new RequestSpecBuilder()
             .setBaseUri("http://localhost")
             .setPort(8080)

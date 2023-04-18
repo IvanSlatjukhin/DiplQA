@@ -24,6 +24,7 @@ repositories {
     mavenCentral()
 }
 
+
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.9.2'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.26'
